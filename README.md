@@ -2,7 +2,7 @@
 My configuration files for the programs that I use
 
 Dependencies:
-
+```
 i3:
 	i3wm                - eah, you know :)
 	rofi                - replace dmenu
@@ -13,3 +13,7 @@ i3:
 	compton             - as composite manager
 	xfce4-screenshooter - as screenshot softeare
 	arandr              - for configure your screen layout (save as layout.sh)
+```
+```
+i3status:
+	i3status
