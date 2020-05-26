@@ -17,3 +17,13 @@ i3:
 ```
 i3status:
 	i3status
+```
+```
+tmux: config based on "https://github.com/gpakosz/.tmux"
+    tmux >= 2.1
+    awk
+    perl
+    sed
+    outside of tmux, $TERM must be set to xterm-256color
+
+```
