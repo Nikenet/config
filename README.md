@@ -11,7 +11,7 @@ i3:
 	firefox             - as main browser
 	xfce4-terminal      - as main terminal emulator
 	compton             - as composite manager
-	xfce4-screenshooter - as screenshot softeare
+	xfce4-screenshooter - as screenshot software
 	arandr              - for configure your screen layout (save as layout.sh)
 ```
 ```
