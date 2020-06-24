@@ -189,7 +189,7 @@ bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec thunar
 
 # Lockscreen
-bindsym $mod+F12 exec i3lock -t -i ~/.config/i3/wallpaper.png && xset dpms force suspend
+bindsym $mod+F12 exec i3lock -t -i ~/.config/i3/wallpaper.png && sleep 1 &&xset dpms force suspend
 
 exec feh --bg-fill ~/.config/i3/wallpaper.png
 exec compton --vsync none
