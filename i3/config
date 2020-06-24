@@ -33,6 +33,9 @@ floating_modifier $mod
 # kill focused window
 bindsym $mod+q kill
 
+# kill window by mouse click
+bindsym --release $mod+Shift+q exec xkill
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
