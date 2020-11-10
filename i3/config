@@ -192,7 +192,7 @@ bindsym $mod+F3 exec thunar
 bindsym $mod+F12 exec i3lock -C -e --blur=sigma -k -i ~/.config/i3/wallpaper.png && sleep 1 &&xset dpms force suspend
 
 exec feh --bg-fill ~/.config/i3/wallpaper.png
-exec picom --vsync -i 1
+exec picom --config ~/.config/picom.conf
 exec --no-startup-id ~/.config/polybar/launch.sh
 exec ~/.screenlayout/layout.sh
 
